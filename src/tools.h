@@ -55,7 +55,7 @@ namespace zim {
                                 const std::string & delims=" *-");
 
   std::map<std::string, int> read_valuesmap(const std::string& s);
-
+  void setICUDataDirectory(const std::string& path);
 // Xapian based tools
 #if defined(ENABLE_XAPIAN)
   std::string removeAccents(const std::string& text);
