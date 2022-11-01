@@ -220,7 +220,7 @@ zim::MimeCounterType zim::parseMimetypeCounter(const std::string& counterData)
 }
 
 // Xapian based tools
-#if defined(ENABLE_XAPIAN)
+
 
 #include "xapian.h"
 
