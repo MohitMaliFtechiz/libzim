@@ -55,7 +55,7 @@ namespace zim {
                                 const std::string & delims=" *-");
 
   std::map<std::string, int> read_valuesmap(const std::string& s);
-
+  void setICUDataDirectory(const std::string& path);
   using MimeCounterType = std::map<const std::string, zim::entry_index_type>;
   MimeCounterType parseMimetypeCounter(const std::string& counterData);
 
