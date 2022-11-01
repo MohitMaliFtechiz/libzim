@@ -273,4 +273,3 @@ void setICUDataDirectory(const std::string& path)
 {
   u_setDataDirectory(path.c_str());
 }
-#endif
